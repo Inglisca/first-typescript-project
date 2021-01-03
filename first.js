@@ -13,3 +13,11 @@ for (var _a = 0, stringList_1 = stringList; _a < stringList_1.length; _a++) {
     var i = stringList_1[_a];
     console.log(i);
 }
+var color;
+(function (color) {
+    color[color["Red"] = 0] = "Red";
+    color[color["Green"] = 1] = "Green";
+    color[color["Blue"] = 2] = "Blue";
+})(color || (color = {}));
+var camsfavoritecolor = color.Blue;
+console.log(camsfavoritecolor);

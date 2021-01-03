@@ -17,3 +17,9 @@ let stringList: string[] =["asd","asd2"];
 for (let i of stringList){
     console.log(i);
 }
+
+
+enum Race {Human,Dwarf,Gnome}
+let camsCharacterrace: Race = Race.Human
+
+console.log (camsCharacterrace);
