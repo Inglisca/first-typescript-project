@@ -6,11 +6,11 @@ console.log(dogBreed);
 
 let list: number [] = [5,2,3];
 
-console.log(list[0])
+console.log(list[0]);
 
 for (let i of list){
     console.log(i);
-    console.log("----")
+    console.log("----");
 }
 
 let stringList: string[] =["asd","asd2"];
