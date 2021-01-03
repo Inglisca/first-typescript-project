@@ -50,3 +50,4 @@ function whatsTheRace(race: Race): string {
 }
 
 console.log(whatsTheRace(camsCharacterRace))
+//last message
