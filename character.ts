@@ -22,8 +22,11 @@ export class Character {
         this.charismaModifier = charismaModifier
     }
 
-    attack(): string {
-        var returnString: string = this.characterName + " attacks a nefaious target with his " + this.weapon.weaponName + " for " + this.weapon.averageDamage.toString();
+    attack(){
+        var returnString: string = this.characterName + " attacks a nefaious target! "
+
+        returnString += this.weapon.getWeaponAttackString(this.strengthModifier)
+
         return returnString
     }
 

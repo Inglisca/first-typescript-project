@@ -11,9 +11,9 @@ export class Weapon {
     getWeaponAttackString(strengthModifier: number){
         var totalAverageDamage:number = this.averageDamage + strengthModifier
 
-        var returnString: string = "he deals " + totalAverageDamage + " with his " + this.weaponName
+        var returnString: string = "He deals " + totalAverageDamage + " with his " + this.weaponName
 
         return returnString
     }
-    
+
 }
